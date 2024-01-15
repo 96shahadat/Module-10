@@ -1,0 +1,45 @@
+/* nav related style */
+body {
+  font-family: 'lato',
+  sans-serif;
+  font-family: 'Open sans',
+  sans-serif;
+  color: #FFF;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 120px;
+}
+.nav-title{
+  color: #3A3A3A;
+  font-size: 24px;
+  font-weight: 700;
+}
+nav > ul{
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 34px;
+}
+nav a{
+  text-decoration: none;
+  color: #3A3A3A;
+  font-size: 16px;
+}
+.icon{
+  display: flex;
+}
+.banner{
+  padding: 30px 130px 30px 120px;
+  color: #3A3A3A;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic{
+  width: 440px;
+  height: 414px;
+}
